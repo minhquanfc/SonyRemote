@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sony TV Remote Control"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/power_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/volume_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Up"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/volume_down_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Down"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/mute_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mute"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/channel_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel Up"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/channel_down_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel Down"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/input_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
